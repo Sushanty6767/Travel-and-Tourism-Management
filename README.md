@@ -69,10 +69,26 @@ Implemented test cases to ensure:
 
 > You can add screenshots here such as:
 - Login page
+- ![IMG-20250522-WA0011](https://github.com/user-attachments/assets/93b7f8e0-4dff-4d10-b6b2-c47dc2457e6e)
+
 - Booking page
+- ![IMG-20250522-WA0012](https://github.com/user-attachments/assets/549515ff-38f1-48ca-adc5-cdf16cbd2ebf)
+
 - Package selection
+- ![IMG-20250522-WA0017](https://github.com/user-attachments/assets/01ad966b-1ce5-49e1-8225-8b45c40d4d93)
+- ![IMG-20250522-WA0016](https://github.com/user-attachments/assets/9fbb219b-f576-44a7-9099-1b6092a92d75)
+- ![IMG-20250522-WA0022](https://github.com/user-attachments/assets/03e87228-0a9d-413d-9323-bce4b9aa750b)
+
+ 
 - Customer update/view page
-- Payment confirmation
+- ![IMG-20250522-WA0019](https://github.com/user-attachments/assets/147ceaed-88fa-45d9-a1d4-3f9007cee365)
+![IMG-20250522-WA0015](https://github.com/user-attachments/assets/70e06ac0-8bbd-4088-9f2d-42cf2449ea69)
+![IMG-20250522-WA0013](https://github.com/user-attachments/assets/866d17ca-436e-4d34-9cf8-b3165ca0f076)
+
+- Payment page
+- ![IMG-20250522-WA0021](https://github.com/user-attachments/assets/da00088c-b6ee-487e-a6f8-f9b5f6118315)
+
+- 
 
 ---
 
