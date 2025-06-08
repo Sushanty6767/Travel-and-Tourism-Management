@@ -105,6 +105,8 @@ Implemented test cases to ensure:
 Core Functionality: All necessary features like tour booking, package management, user login/logout, and admin controls are implemented.
 
 Error Handling: Robust error handling mechanisms are in place to ensure the application handles invalid input and system errors gracefully.
+![WhatsApp Image 2025-06-08 at 20 02 35_40490e6e](https://github.com/user-attachments/assets/dd092c62-f2a2-4c42-8afd-7d292e30d919)
+
 
 Integrated Tech Stack: A thoughtful combination of Java technologies has been used to develop an intuitive and responsive interface.
 
