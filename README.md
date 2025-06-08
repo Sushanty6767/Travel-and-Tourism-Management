@@ -100,6 +100,57 @@ Implemented test cases to ensure:
 - Eclipse IDE (or any Java IDE)
 - JDBC driver added to project classpath
 
+- 🚀 Features Implemented
+Core Functionality: All necessary features like tour booking, package management, user login/logout, and admin controls are implemented.
+
+Error Handling: Robust error handling mechanisms are in place to ensure the application handles invalid input and system errors gracefully.
+
+Integrated Tech Stack: A thoughtful combination of Java technologies has been used to develop an intuitive and responsive interface.
+
+Event Handling: Efficient use of Java event listeners and delegation improves application responsiveness.
+
+Data Validation: Both client-side and internal validation are implemented to ensure accurate and secure data operations.
+
+👨‍💻 Team Members
+Kavay Gera
+📧 gerakavay4@gmail.com
+
+Sushant Chaturvedi
+📧 sushant.24scse1180365@galgotiasuniversity.ac.in
+
+Yashdeep Shukla
+📧 Yashdeep.24SCSE1180255@galgotiasuniversity.ac.in
+
+Saurabh Rathaur
+📧 saurabhcpr1950@gmail.com
+
+📂 Project Structure
+bash
+Copy
+Edit
+/src
+  ├── travel.management.system
+        ├── Splash.java
+        ├── Dashboard.java
+        ├── Login.java
+        ├── BookPackage.java
+        └── ...
+🛠 Technologies Used
+Java (Core + Swing)
+
+AWT and Event Listeners
+
+File-based or in-memory storage (optional)
+
+
+📈 Project Objectives
+
+Provide an easy-to-use interface for booking and managing travel packages.
+
+Ensure modular and scalable code structure.
+
+Prioritize user experience through a well-integrated and tested design.
+
 ### Steps
 
 1. Clone this repository:
