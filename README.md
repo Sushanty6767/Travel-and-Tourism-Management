@@ -100,7 +100,8 @@ Implemented test cases to ensure:
 - Eclipse IDE (or any Java IDE)
 - JDBC driver added to project classpath
 
-- 🚀 Features Implemented
+
+## 🚀 Features Implemented
 Core Functionality: All necessary features like tour booking, package management, user login/logout, and admin controls are implemented.
 
 Error Handling: Robust error handling mechanisms are in place to ensure the application handles invalid input and system errors gracefully.
@@ -111,20 +112,21 @@ Event Handling: Efficient use of Java event listeners and delegation improves ap
 
 Data Validation: Both client-side and internal validation are implemented to ensure accurate and secure data operations.
 
-👨‍💻 Team Members
-Kavay Gera
+##👨‍💻 Team Members
+   Kavay Gera
 📧 gerakavay4@gmail.com
 
-Sushant Chaturvedi
+  Sushant Chaturvedi
 📧 sushant.24scse1180365@galgotiasuniversity.ac.in
 
-Yashdeep Shukla
+  Yashdeep Shukla
 📧 Yashdeep.24SCSE1180255@galgotiasuniversity.ac.in
 
-Saurabh Rathaur
+  Saurabh Rathaur
 📧 saurabhcpr1950@gmail.com
 
-📂 Project Structure
+
+##📂 Project Structure
 bash
 Copy
 Edit
@@ -135,7 +137,7 @@ Edit
         ├── Login.java
         ├── BookPackage.java
         └── ...
-🛠 Technologies Used
+##🛠 Technologies Used
 Java (Core + Swing)
 
 AWT and Event Listeners
@@ -143,7 +145,7 @@ AWT and Event Listeners
 File-based or in-memory storage (optional)
 
 
-📈 Project Objectives
+##📈 Project Objectives
 
 Provide an easy-to-use interface for booking and managing travel packages.
 
