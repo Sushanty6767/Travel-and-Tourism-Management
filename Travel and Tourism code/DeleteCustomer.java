@@ -147,7 +147,7 @@ public class DeleteCustomer extends JFrame {
                             Conn c = new Conn();
                            
                             try{
-                                ResultSet rs = c.s.executeQuery("select * from customer where username = 'rajanrai'");
+                                ResultSet rs = c.s.executeQuery("select * from customer where username = '" + c1.getSelectedItem() + "'");
                                 if(rs.next()){
                                     l2.setText(rs.getString(2));  
                                     l3.setText(rs.getString(3));
@@ -176,7 +176,7 @@ public class DeleteCustomer extends JFrame {
                             try{
 	    			String s1 = c1.getSelectedItem(); 
                                 
-                                String q1 = "update from customer where username = '"+s1+"'";
+                                String q1 = "delete from customer where username = '"+s1+"'";
                                 c.s.executeUpdate(q1);
                                 
 	    			JOptionPane.showMessageDialog(null, "Customer Detail Deleted Successfully");

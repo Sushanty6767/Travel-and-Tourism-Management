@@ -11,9 +11,9 @@ import java.awt.*;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.table.DefaultTableModel;
 import javax.swing.border.EmptyBorder;
-
-import net.proteanit.sql.DbUtils;
+import java.util.Vector;
 
 import javax.swing.JTable;
 import java.sql.*;	
@@ -80,7 +80,7 @@ public class ViewCustomers extends JFrame {
                     Conn c = new Conn();
                         String displayCustomersql = "select * from customer";
                         ResultSet rs = c.s.executeQuery(displayCustomersql);
-                        table.setModel(DbUtils.resultSetToTableModel(rs));
+                        table.setModel(buildTableModel(rs));
                 }
                 catch(Exception e1){
                         e1.printStackTrace();
@@ -136,5 +136,26 @@ public class ViewCustomers extends JFrame {
                 
                 getContentPane().setBackground(Color.WHITE);
 	}
+
+        private DefaultTableModel buildTableModel(ResultSet rs) throws SQLException {
+                ResultSetMetaData metaData = rs.getMetaData();
+                int columnCount = metaData.getColumnCount();
+
+                Vector<String> columnNames = new Vector<String>();
+                for (int column = 1; column <= columnCount; column++) {
+                        columnNames.add(metaData.getColumnName(column));
+                }
+
+                Vector<Vector<Object>> data = new Vector<Vector<Object>>();
+                while (rs.next()) {
+                        Vector<Object> row = new Vector<Object>();
+                        for (int column = 1; column <= columnCount; column++) {
+                                row.add(rs.getObject(column));
+                        }
+                        data.add(row);
+                }
+
+                return new DefaultTableModel(data, columnNames);
+        }
 
 }
